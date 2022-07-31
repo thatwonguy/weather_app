@@ -6,7 +6,7 @@ import requests
 url = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid={}'
 
 
-config_file = 'config.ini'
+config_file = '.gitignore/config.ini'
 config = ConfigParser()
 config.read(config_file)
 api_key = config['api_key']['key']
