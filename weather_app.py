@@ -31,7 +31,7 @@ def get_weather(city):
     else:
         return None
 
-print(get_weather('London')) #testing results
+# print(get_weather('London')) #testing results
 
 def search():
     city = city_text.get()
